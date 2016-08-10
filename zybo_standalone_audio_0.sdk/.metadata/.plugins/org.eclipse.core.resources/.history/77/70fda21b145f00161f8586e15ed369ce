@@ -1,0 +1,25 @@
+/*
+ * main.h
+ *
+ *  Created on: Aug 10, 2016
+ *      Author: andrewandrepowell2
+ */
+
+#ifndef SRC_MAIN_H_
+#define SRC_MAIN_H_
+
+#include "xparameters.h"
+#include "audio_cppwrap.h"
+
+/* Define the low-level behavior for the audio driver. */
+class audio_driver : public audio_cppwrap
+{
+public:
+private:
+	void mem_access( audio_dir dir, uint32_t phy_addr, uint32_t* data, void* param ) = 0;
+	void i2c_trans( audio_dir dir, uint8_t slave_addr, uint8_t* data, size_t len, void* param ) = 0;
+	void i2c_delay( unsigned int ms, void* param ) = 0;
+};
+
+
+#endif /* SRC_MAIN_H_ */

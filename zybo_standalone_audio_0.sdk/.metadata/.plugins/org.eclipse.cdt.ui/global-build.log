@@ -1,0 +1,1556 @@
+11:57:16 **** Build of project example_app_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_3/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_2/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/axi_i2s_adi_v1_00_a/src
+make -C ps7_cortexa9_0/libsrc/axi_i2s_adi_v1_00_a/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_3/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/common_v1_00_a/src
+make -C ps7_cortexa9_0/libsrc/common_v1_00_a/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_2/src
+make -C ps7_cortexa9_0/libsrc/iicps_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_4/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_5/src
+make -C ps7_cortexa9_0/libsrc/standalone_v5_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_3/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling qspips
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_2/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/axi_i2s_adi_v1_00_a/src
+make -C ps7_cortexa9_0/libsrc/axi_i2s_adi_v1_00_a/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling axi_i2s_adi...
+In file included from axi_i2s_adi.h:7:0,
+                 from axi_i2s_adi.c:4:
+../../../include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../../include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from axi_i2s_adi.h:7:0,
+                 from axi_i2s_adi_selftest.c:3:
+../../../include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../../include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_3/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/common_v1_00_a/src
+make -C ps7_cortexa9_0/libsrc/common_v1_00_a/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling common
+Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_2/src
+make -C ps7_cortexa9_0/libsrc/iicps_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling iicps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_4/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling ttcps
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_5/src
+make -C ps7_cortexa9_0/libsrc/standalone_v5_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling standalone
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling xadcps
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling scutimer
+Finished building libraries
+11:57:23 **** Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19472	   1152	  22572	  43196	   a8bc	example_app.elf
+Finished building: example_app.elf.size
+ 
+11:58:27 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/audio.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio.d" -MT"src/audio.o" -o "src/audio.o" "../src/audio.c"
+Finished building: ../src/audio.c
+ 
+Building file: ../src/audio_cppwrap.cpp
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio_cppwrap.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio_cppwrap.d" -MT"src/audio_cppwrap.o" -o "src/audio_cppwrap.o" "../src/audio_cppwrap.cpp"
+Finished building: ../src/audio_cppwrap.cpp
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32776	   2192	  22644	  57612	   e10c	example_app.elf
+Finished building: example_app.elf.size
+ 
+11:59:08 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32776	   2192	  22644	  57612	   e10c	example_app.elf
+Finished building: example_app.elf.size
+ 
+11:59:26 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32776	   2192	  22644	  57612	   e10c	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:00:14 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32776	   2192	  22644	  57612	   e10c	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:00:53 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/audio.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio.d" -MT"src/audio.o" -o "src/audio.o" "../src/audio.c"
+Finished building: ../src/audio.c
+ 
+Building file: ../src/audio_cppwrap.cpp
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio_cppwrap.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio_cppwrap.d" -MT"src/audio_cppwrap.o" -o "src/audio_cppwrap.o" "../src/audio_cppwrap.cpp"
+Finished building: ../src/audio_cppwrap.cpp
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32776	   2192	  22644	  57612	   e10c	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:01:00 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/audio_cppwrap.cpp
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio_cppwrap.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio_cppwrap.d" -MT"src/audio_cppwrap.o" -o "src/audio_cppwrap.o" "../src/audio_cppwrap.cpp"
+Finished building: ../src/audio_cppwrap.cpp
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32776	   2192	  22644	  57612	   e10c	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:01:58 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32776	   2192	  22644	  57612	   e10c	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:02:12 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32776	   2192	  22644	  57612	   e10c	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:02:33 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32776	   2192	  22644	  57612	   e10c	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:02:54 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+12:03:07 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+12:03:10 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+12:03:17 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32776	   2192	  22644	  57612	   e10c	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:03:51 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32776	   2192	  22644	  57612	   e10c	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:03:53 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32776	   2192	  22644	  57612	   e10c	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:04:17 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32776	   2192	  22644	  57612	   e10c	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:04:25 **** Clean-only build of configuration Debug for project example_app ****
+make clean 
+rm -rf  ./src/main.d  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o  ./src/audio.d  ./src/audio_cppwrap.d  example_app.elf.size  example_app.elf
+ 
+12:04:25 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/audio.c
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio.d" -MT"src/audio.o" -o "src/audio.o" "../src/audio.c"
+Finished building: ../src/audio.c
+ 
+Building file: ../src/audio_cppwrap.cpp
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio_cppwrap.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audio_cppwrap.d" -MT"src/audio_cppwrap.o" -o "src/audio_cppwrap.o" "../src/audio_cppwrap.cpp"
+Finished building: ../src/audio_cppwrap.cpp
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32776	   2192	  22644	  57612	   e10c	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:04:51 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32840	   2192	  22644	  57676	   e14c	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:05:15 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32904	   2192	  22644	  57740	   e18c	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:05:37 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32904	   2192	  22644	  57740	   e18c	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:05:48 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32904	   2192	  22644	  57740	   e18c	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:05:58 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32904	   2192	  22644	  57740	   e18c	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:06:33 **** Build of configuration Debug for project example_app_bsp_xiicps_polled_master_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/xiicps_polled_master_example.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xiicps_polled_master_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xiicps_polled_master_example.d" -MT"src/xiicps_polled_master_example.o" -o "src/xiicps_polled_master_example.o" "../src/xiicps_polled_master_example.c"
+Finished building: ../src/xiicps_polled_master_example.c
+ 
+Building target: example_app_bsp_xiicps_polled_master_example_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app_bsp_xiicps_polled_master_example_1.elf"  ./src/xiicps_polled_master_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: example_app_bsp_xiicps_polled_master_example_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app_bsp_xiicps_polled_master_example_1.elf  |tee "example_app_bsp_xiicps_polled_master_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29548	   1168	  22900	  53616	   d170	example_app_bsp_xiicps_polled_master_example_1.elf
+Finished building: example_app_bsp_xiicps_polled_master_example_1.elf.size
+ 
+12:06:46 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32904	   2192	  22644	  57740	   e18c	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:07:05 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32904	   2192	  22644	  57740	   e18c	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:07:11 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32904	   2192	  22644	  57740	   e18c	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:07:35 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32904	   2192	  22644	  57740	   e18c	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:07:39 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function ‘int main()’:
+../src/main.cc:28:7: warning: unused variable ‘Status’ [-Wunused-variable]
+   int Status;
+       ^
+../src/main.cc:29:18: warning: unused variable ‘Config’ [-Wunused-variable]
+   XIicPs_Config *Config;
+                  ^
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32904	   2192	  22644	  57740	   e18c	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:07:53 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function ‘int main()’:
+../src/main.cc:29:7: warning: unused variable ‘Status’ [-Wunused-variable]
+   int Status;
+       ^
+../src/main.cc:30:18: warning: unused variable ‘Config’ [-Wunused-variable]
+   XIicPs_Config *Config;
+                  ^
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32904	   2192	  22644	  57740	   e18c	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:08:41 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function ‘int main()’:
+../src/main.cc:29:7: warning: unused variable ‘Status’ [-Wunused-variable]
+   int Status;
+       ^
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33132	   2200	  22652	  57984	   e280	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:09:32 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc:26:14: error: cannot declare variable ‘audio_obj’ to be of abstract type ‘audio_driver’
+ audio_driver audio_obj;
+              ^
+../src/main.cc:16:7: note:   because the following virtual functions are pure within ‘audio_driver’:
+ class audio_driver : public audio_cppwrap
+       ^
+../src/main.cc:20:7: note: 	virtual void audio_driver::mem_access(audio_dir, uint32_t, uint32_t*, void*)
+  void mem_access( audio_dir dir, uint32_t phy_addr, uint32_t* data, void* param ) = 0;
+src/subdir.mk:49: recipe for target 'src/main.o' failed
+       ^
+../src/main.cc:21:7: note: 	virtual void audio_driver::i2c_trans(audio_dir, uint8_t, uint8_t*, size_t, void*)
+  void i2c_trans( audio_dir dir, uint8_t slave_addr, uint8_t* data, size_t len, void* param ) = 0;
+       ^
+../src/main.cc:22:7: note: 	virtual void audio_driver::i2c_delay(unsigned int, void*)
+  void i2c_delay( unsigned int ms, void* param ) = 0;
+       ^
+../src/main.cc: In function ‘int main()’:
+../src/main.cc:37:34: error: ‘Iic’ was not declared in this scope
+   Status = XIicPs_CfgInitialize(&Iic, Config, Config->BaseAddress);
+                                  ^
+make: *** [src/main.o] Error 1
+12:09:48 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function ‘int main()’:
+../src/main.cc:37:34: error: ‘Iic’ was not declared in this scope
+   Status = XIicPs_CfgInitialize(&Iic, Config, Config->BaseAddress);
+                                  ^
+src/subdir.mk:49: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+12:09:59 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function ‘int main()’:
+../src/main.cc:32:7: warning: variable ‘Status’ set but not used [-Wunused-but-set-variable]
+   int Status;
+       ^
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 148044	   2608	  25992	 176644	  2b204	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:10:21 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 148108	   2608	  25992	 176708	  2b244	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:10:45 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 148108	   2608	  25992	 176708	  2b244	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:11:07 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 148108	   2608	  25992	 176708	  2b244	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:12:09 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 148108	   2608	  25992	 176708	  2b244	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:13:01 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In member function ‘virtual void audio_driver::i2c_trans(audio_dir, uint8_t, uint8_t*, size_t, void*)’:
+../src/main.cc:62:4: error: ‘Status’ was not declared in this scope
+src/subdir.mk:49: recipe for target 'src/main.o' failed
+    Status = XIicPs_MasterSendPolled( &i2c_obj, data, len, slave_addr );
+    ^
+make: *** [src/main.o] Error 1
+12:13:10 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In member function ‘virtual void audio_driver::i2c_trans(audio_dir, uint8_t, uint8_t*, size_t, void*)’:
+../src/main.cc:58:6: warning: variable ‘Status’ set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 151800	   2608	  25992	 180400	  2c0b0	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:13:26 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In member function ‘virtual void audio_driver::i2c_trans(audio_dir, uint8_t, uint8_t*, size_t, void*)’:
+../src/main.cc:59:6: warning: variable ‘Status’ set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 151800	   2608	  25992	 180400	  2c0b0	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:13:52 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In member function ‘virtual void audio_driver::i2c_trans(audio_dir, uint8_t, uint8_t*, size_t, void*)’:
+../src/main.cc:59:6: warning: variable ‘Status’ set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 151864	   2608	  25992	 180464	  2c0f0	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:15:01 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In member function ‘virtual void audio_driver::i2c_trans(audio_dir, uint8_t, uint8_t*, size_t, void*)’:
+../src/main.cc:73:38: error: ‘Xil_Assertvoid’ was not declared in this scope
+src/subdir.mk:49: recipe for target 'src/main.o' failed
+  Xil_Assertvoid( Status==XST_SUCCESS );
+                                      ^
+make: *** [src/main.o] Error 1
+12:15:06 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 151928	   2608	  25992	 180528	  2c130	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:15:52 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 151928	   2608	  25992	 180528	  2c130	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:16:38 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In member function ‘virtual void audio_driver::mem_access(audio_dir, uint32_t, uint32_t*, void*)’:
+../src/main.cc:59:2: error: expected primary-expression before ‘}’ token
+  }
+  ^
+src/subdir.mk:49: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+12:17:16 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In member function ‘virtual void audio_driver::mem_access(audio_dir, uint32_t, uint32_t*, void*)’:
+../src/main.cc:63:2: error: expected primary-expression before ‘}’ token
+src/subdir.mk:49: recipe for target 'src/main.o' failed
+  }
+  ^
+make: *** [src/main.o] Error 1
+12:18:00 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 152004	   2608	  25992	 180604	  2c17c	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:18:34 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 152004	   2608	  25992	 180604	  2c17c	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:19:23 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 152152	   2608	  26000	 180760	  2c218	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:20:12 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 152152	   2608	  26000	 180760	  2c218	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:21:18 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 152608	   2608	  25992	 181208	  2c3d8	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:21:35 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 152800	   2608	  26000	 181408	  2c4a0	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:23:15 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 152800	   2608	  26000	 181408	  2c4a0	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:24:50 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function ‘int main()’:
+../src/main.cc:56:13: warning: unused variable ‘recv’ [-Wunused-variable]
+   uint32_t* recv = audio_obj.read_mem_sample_lr();
+             ^
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 152976	   2608	  25992	 181576	  2c548	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:25:07 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function ‘int main()’:
+../src/main.cc:57:13: warning: unused variable ‘recv’ [-Wunused-variable]
+   uint32_t* recv = audio_obj.read_mem_sample_lr();
+             ^
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 152976	   2608	  25992	 181576	  2c548	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:25:16 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function ‘int main()’:
+../src/main.cc:59:11: warning: unused variable ‘samples’ [-Wunused-variable]
+   int32_t samples[] =
+           ^
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 152976	   2608	  25992	 181576	  2c548	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:25:36 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function ‘int main()’:
+../src/main.cc:60:11: warning: unused variable ‘samples’ [-Wunused-variable]
+   int32_t samples[] =
+           ^
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 152976	   2608	  25992	 181576	  2c548	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:26:13 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function ‘int main()’:
+../src/main.cc:61:11: warning: unused variable ‘samples’ [-Wunused-variable]
+   int32_t samples[] =
+           ^
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 152976	   2608	  25992	 181576	  2c548	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:26:33 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 153040	   2608	  25992	 181640	  2c588	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:27:12 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 153040	   2608	  25992	 181640	  2c588	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:27:45 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 153040	   2608	  25992	 181640	  2c588	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:27:50 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function ‘int main()’:
+../src/main.cc:63:21: error: ‘recv’ was not declared in this scope
+     convert_sample( recv[ 0 ] ),
+                     ^
+../src/main.cc:58:13: warning: unused variable ‘recv_send’ [-Wunused-variable]
+src/subdir.mk:49: recipe for target 'src/main.o' failed
+   uint32_t* recv_send = audio_obj.read_mem_sample_lr();
+             ^
+make: *** [src/main.o] Error 1
+12:27:56 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 153040	   2608	  25992	 181640	  2c588	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:28:48 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 153040	   2608	  25992	 181640	  2c588	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:29:48 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 153040	   2608	  25992	 181640	  2c588	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:29:50 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 153040	   2608	  25992	 181640	  2c588	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:30:12 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function ‘int main()’:
+../src/main.cc:80:42: error: invalid conversion from ‘int32_t* {aka long int*}’ to ‘uint32_t* {aka long unsigned int*}’ [-fpermissive]
+   audio_obj.write_mem_sample_lr( samples );
+                                          ^
+In file included from ../src/main.cc:13:0:
+../src/audio_cppwrap.h:26:7: note: initializing argument 1 of ‘void audio_cppwrap::write_mem_sample_lr(uint32_t*)’
+  void write_mem_sample_lr( uint32_t* samples ) { audio_write_mem_sample_lr( &obj, samples ); }
+       ^
+src/subdir.mk:49: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+12:30:19 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function ‘int main()’:
+../src/main.cc:80:42: error: invalid conversion from ‘int32_t* {aka long int*}’ to ‘uint32_t* {aka long unsigned int*}’ [-fpermissive]
+   audio_obj.write_mem_sample_lr( samples );
+                                          ^
+In file included from ../src/main.cc:13:0:
+../src/audio_cppwrap.h:26:7: note: initializing argument 1 of ‘void audio_cppwrap::write_mem_sample_lr(uint32_t*)’
+  void write_mem_sample_lr( uint32_t* samples ) { audio_write_mem_sample_lr( &obj, samples ); }
+       ^
+src/subdir.mk:49: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+12:30:23 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 153108	   2608	  26000	 181716	  2c5d4	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:32:12 **** Incremental Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+12:34:14 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 153108	   2608	  26000	 181716	  2c5d4	example_app.elf
+Finished building: example_app.elf.size
+ 
+12:34:27 **** Auto Build of configuration Debug for project example_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../example_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: example_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../example_app_bsp/ps7_cortexa9_0/lib -o "example_app.elf"  ./src/audio.o ./src/audio_cppwrap.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: example_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size example_app.elf  |tee "example_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 153108	   2608	  26000	 181716	  2c5d4	example_app.elf
+Finished building: example_app.elf.size
+ 

@@ -1,0 +1,46 @@
+/*
+ * Author: Andrew Powell
+ * Purpose: Small example application, demonstrating how the ADI I2C core
+ * and the SSM2603 audio codec of the Zybo board can be utilized with a
+ * c driver.
+ */
+
+#include "xparameters.h"
+#include "audio_cppwrap.h"
+
+/* Define the low-level behavior for the audio driver. */
+class audio_driver : public audio_cppwrap
+{
+public:
+private:
+	void mem_access( audio_dir dir, uint32_t phy_addr, uint32_t* data, void* param ) = 0;
+	void i2c_trans( audio_dir dir, uint8_t slave_addr, uint8_t* data, size_t len, void* param ) = 0;
+	void i2c_delay( unsigned int ms, void* param ) = 0;
+};
+
+int main()
+{
+
+	while ( true )
+	{
+
+	}
+	return 0;
+}
+
+void audio_driver::mem_access( audio_dir dir, uint32_t phy_addr, uint32_t* data, void* param )
+{
+
+}
+
+void audio_driver::i2c_trans( audio_dir dir, uint8_t slave_addr, uint8_t* data, size_t len, void* param )
+{
+
+}
+
+void audio_driver::i2c_delay( unsigned int ms, void* param )
+{
+
+}
+
+

@@ -1,0 +1,17 @@
+/*
+ * Author: Andrew Powell
+ * Purpose: Small example application, demonstrating how the ADI I2C core
+ * and the SSM2603 audio codec of the Zybo board can be utilized with a
+ * c driver.
+ */
+
+/* Included the declarations in a header to make the main
+appear much cleaner. */
+#include "main.h"
+
+int main()
+{
+	return 0;
+}
+
+

@@ -1,0 +1,12 @@
+/*
+ * Empty C++ Application
+ */
+
+#include "audio.h"
+
+/* Define the I2C behavior for the audio driver. */
+
+int main()
+{
+	return 0;
+}

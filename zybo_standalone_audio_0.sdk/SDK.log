@@ -1,0 +1,46 @@
+11:56:47 INFO  : Launching XSDB server: xsdb -n -interactive /opt/Xilinx/Projects/zybo_standalone_audio_0/zybo_standalone_audio_0.sdk/temp_xsdb_launch_script.tcl
+11:56:51 INFO  : XSDB server has started successfully.
+11:56:51 INFO  : Processing command line option -hwspec /opt/Xilinx/Projects/zybo_standalone_audio_0/zybo_standalone_audio_0.sdk/block_design_wrapper.hdf.
+12:06:33 INFO  : Example project example_app_bsp_xiicps_polled_master_example_1 has been created successfully.
+12:32:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:32:12 INFO  : Jtag cable 'Digilent Zybo 210279759071A' is selected.
+12:32:12 INFO  : 'jtag frequency' command is executed.
+12:32:12 INFO  : Sourcing of '/opt/Xilinx/Projects/zybo_standalone_audio_0/zybo_standalone_audio_0.sdk/block_design_wrapper_hw_platform_0/ps7_init.tcl' is done.
+12:32:12 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279759071A"} -index 0' command is executed.
+12:32:13 INFO  : System reset is completed.
+12:32:16 INFO  : 'after 3000' command is executed.
+12:32:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279759071A" && level==0} -index 1' command is executed.
+12:32:17 INFO  : FPGA configured successfully with bitstream "/opt/Xilinx/Projects/zybo_standalone_audio_0/zybo_standalone_audio_0.sdk/block_design_wrapper_hw_platform_0/block_design_wrapper.bit"
+12:32:17 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279759071A"} -index 0' command is executed.
+12:32:17 INFO  : Hardware design information is loaded from '/opt/Xilinx/Projects/zybo_standalone_audio_0/zybo_standalone_audio_0.sdk/block_design_wrapper_hw_platform_0/system.hdf'.
+12:32:17 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279759071A"} -index 0' command is executed.
+12:32:17 INFO  : 'ps7_init' command is executed.
+12:32:17 INFO  : 'ps7_post_config' command is executed.
+12:32:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:32:18 INFO  : The application '/opt/Xilinx/Projects/zybo_standalone_audio_0/zybo_standalone_audio_0.sdk/example_app/Debug/example_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:32:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /opt/Xilinx/Projects/zybo_standalone_audio_0/zybo_standalone_audio_0.sdk/block_design_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279759071A"} -index 0
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279759071A" && level==0} -index 1
+fpga -file /opt/Xilinx/Projects/zybo_standalone_audio_0/zybo_standalone_audio_0.sdk/block_design_wrapper_hw_platform_0/block_design_wrapper.bit
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279759071A"} -index 0
+loadhw /opt/Xilinx/Projects/zybo_standalone_audio_0/zybo_standalone_audio_0.sdk/block_design_wrapper_hw_platform_0/system.hdf
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zybo 210279759071A"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279759071A"} -index 0
+dow /opt/Xilinx/Projects/zybo_standalone_audio_0/zybo_standalone_audio_0.sdk/example_app/Debug/example_app.elf
+----------------End of Script----------------
+
+12:32:18 INFO  : Memory regions updated for context APU
+12:32:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:32:18 INFO  : 'con' command is executed.
+12:32:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279759071A"} -index 0
+con
+----------------End of Script----------------
+
+12:32:18 INFO  : Launch script is exported to file '/opt/Xilinx/Projects/zybo_standalone_audio_0/zybo_standalone_audio_0.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/new_configuration.tcl'

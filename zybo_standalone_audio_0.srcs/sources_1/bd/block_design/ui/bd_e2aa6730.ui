@@ -1,0 +1,42 @@
+{
+   guistr: "# # String gsaved with Nlview 6.5.12  2016-01-29 bk=1.3547 VDI=39 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y 70 -defaultsOSRD
+preplace port AC_MCLK -pg 1 -y 210 -defaultsOSRD
+preplace port AC_MUTE_N -pg 1 -y 320 -defaultsOSRD
+preplace port AC_I2C -pg 1 -y 110 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 90 -defaultsOSRD
+preplace port AC_SDATA_I -pg 1 -y 140 -defaultsOSRD
+preplace portBus AC_SDATA_O -pg 1 -y 300 -defaultsOSRD
+preplace portBus AC_PBLRC -pg 1 -y 260 -defaultsOSRD
+preplace portBus AC_RELRC -pg 1 -y 280 -defaultsOSRD
+preplace portBus AC_BCLK -pg 1 -y 20 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 1 -y 420 -defaultsOSRD
+preplace inst axi_i2s_adi_0 -pg 1 -lvl 3 -y 160 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 2 -y 480 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 4 -y 150 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 4 1 NJ
+preplace netloc axi_i2s_adi_0_DMA_RX_REQ 1 3 1 N
+preplace netloc AC_SDATA_I_1 1 0 3 NJ 140 NJ 140 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 4 400 350 NJ 350 NJ 350 1490
+preplace netloc axi_i2s_adi_0_DMA_TX_REQ 1 3 1 N
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 5 30 330 NJ 330 NJ 340 NJ 340 1470
+preplace netloc processing_system7_0_IIC_0 1 4 1 NJ
+preplace netloc axi_i2s_adi_0_SDATA_O 1 3 2 NJ 300 NJ
+preplace netloc processing_system7_0_DMA0_ACK 1 2 3 740 10 NJ 10 1460
+preplace netloc proc_sys_reset_0_interconnect_aresetn 1 1 1 380
+preplace netloc processing_system7_0_DMA1_ACK 1 2 3 730 310 NJ 310 1480
+preplace netloc axi_i2s_adi_0_BCLK_O 1 3 2 NJ 20 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 4 1 NJ
+preplace netloc axi_i2s_adi_0_LRCLK_O 1 3 2 NJ 280 NJ
+preplace netloc axi_i2s_adi_0_MUTEN_O 1 3 2 NJ 320 NJ
+preplace netloc axi_interconnect_0_M00_AXI 1 2 1 700
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 1 2 370 260 710
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 5 20 310 390 310 720 320 1070 290 1460
+preplace netloc processing_system7_0_FCLK_CLK2 1 2 3 740 330 NJ 330 1500
+levelinfo -pg 1 0 200 550 900 1270 1540 -top 0 -bot 600
+",
+}
+{
+   da_ps7_cnt: "1",
+}

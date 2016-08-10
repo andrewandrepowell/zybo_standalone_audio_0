@@ -1,0 +1,16 @@
+/*
+ * Empty C++ Application
+ */
+#include "xparameters.h"
+#include "audio_cppwrap.h"
+
+/* Define the I2C behavior for the audio driver. */
+class audio_driver : public audio_cppwrap
+{
+
+};
+
+int main()
+{
+	return 0;
+}
